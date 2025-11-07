@@ -35,9 +35,7 @@ const Project = () => {
                                         <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">React</Badge>
                                         <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">Tailwind</Badge>
                                         <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">TypeScript</Badge>
-                                        <div className="ml-auto bg-[#5A3C2F]">
-                                            <Badge variant="secondary"> {item.date}</Badge>
-                                        </div>
+
                                     </div>
                                     <h3 className="mt-4 text-[1.4rem] text-black font-semibold tracking-tight">
                                         {item.title}
