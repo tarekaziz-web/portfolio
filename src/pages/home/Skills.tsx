@@ -1,20 +1,20 @@
 const icon = [
-    { name: "HTML", imageUrl: "/public/html5.svg" },
-    { name: "CSS", imageUrl: "/public/css_old.svg" },
-    { name: "Tailwind", imageUrl: "/public/tailwindcss.svg" },
-    { name: "Javascript", imageUrl: "/public/javascript.svg" },
-    { name: "Typescript", imageUrl: "/public/typescript.svg" },
-    { name: "React", imageUrl: "/public/react_light.svg" },
+    { name: "HTML", imageUrl: "/html5.svg" },
+    { name: "CSS", imageUrl: "/css_old.svg" },
+    { name: "Tailwind", imageUrl: "/tailwindcss.svg" },
+    { name: "Javascript", imageUrl: "/javascript.svg" },
+    { name: "Typescript", imageUrl: "/typescript.svg" },
+    { name: "React", imageUrl: "/react_light.svg" },
     { name: "Redux", imageUrl: "/public/redux.svg" },
     { name: "Next Js", imageUrl: "/public/nextjs_icon_dark.svg" },
 ]
 
 const icon2 = [
 
-    { name: "Node Js", imageUrl: "/public/nodejs.svg" },
-    { name: "MongoDB", imageUrl: "/public/mongodb-original-wordmark.svg" },
-    { name: "Express JS", imageUrl: "/public/expressjs.svg" },
-    { name: "Laravel", imageUrl: "/public/laravel.svg" },
+    { name: "Node Js", imageUrl: "/nodejs.svg" },
+    { name: "MongoDB", imageUrl: "/mongodb-original-wordmark.svg" },
+    { name: "Express JS", imageUrl: "/expressjs.svg" },
+    { name: "Laravel", imageUrl: "/laravel.svg" },
 ];
 
 
