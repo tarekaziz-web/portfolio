@@ -39,7 +39,7 @@ const About = () => {
                     <div className="grid text-black grid-cols-2 gap-4 lg:grid-cols-4">
                         <Card className="bg-[#FFF0E1]">
                             <CardContent className="px-6 pt-6 text-5xl text-center">
-                                <p>
+                                <p className="text-black">
                                     25+
                                 </p>
                             </CardContent>
@@ -49,7 +49,7 @@ const About = () => {
                         </Card>
                         <Card className="bg-[#FFF0E1]">
                             <CardContent className="px-6 pt-6 text-5xl text-center">
-                                <p>
+                                <p className="text-black">
                                     100%
                                 </p>
                             </CardContent>
@@ -59,7 +59,7 @@ const About = () => {
                         </Card>
                         <Card className="bg-[#FFF0E1]">
                             <CardContent className="px-6 pt-6 text-5xl text-center">
-                                <p>
+                                <p className="text-black">
                                     12+
                                 </p>
                             </CardContent>
@@ -69,7 +69,7 @@ const About = () => {
                         </Card>
                         <Card className="bg-[#FFF0E1]">
                             <CardContent className="px-6 pt-6 text-5xl text-center">
-                                <p>
+                                <p className="text-black">
                                     02+
                                 </p>
                             </CardContent>

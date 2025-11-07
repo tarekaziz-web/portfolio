@@ -32,14 +32,14 @@ const Project = () => {
                                 </CardHeader>
                                 <CardContent className="pt-0 pb-5 px-5">
                                     <div className="flex">
-                                        <Badge className="mr-2.5" variant="secondary">React</Badge>
-                                        <Badge className="mr-2.5" variant="secondary">Tailwind</Badge>
-                                        <Badge className="mr-2.5" variant="secondary">TypeScript</Badge>
-                                        <div className="ml-auto">
+                                        <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">React</Badge>
+                                        <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">Tailwind</Badge>
+                                        <Badge className="mr-2.5 bg-[#5A3C2F]" variant="secondary">TypeScript</Badge>
+                                        <div className="ml-auto bg-[#5A3C2F]">
                                             <Badge variant="secondary"> {item.date}</Badge>
                                         </div>
                                     </div>
-                                    <h3 className="mt-4 text-[1.4rem] font-semibold tracking-tight">
+                                    <h3 className="mt-4 text-[1.4rem] text-black font-semibold tracking-tight">
                                         {item.title}
                                     </h3>
                                     <p className="mt-2 text-muted-foreground line-clamp-3">

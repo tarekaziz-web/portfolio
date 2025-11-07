@@ -23,14 +23,14 @@ const Contact = () => (
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
                             <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
-                                    <MailIcon />
+                                    <MailIcon className="text-black" />
                                 </div>
                                 <h3 className="mt-3 font-semibold text-xl">Email</h3>
                                 <p className="my-1.5 text-muted-foreground">
                                     Our friendly team is here to help.
                                 </p>
                                 <Link
-                                    className="font-medium text-primary"
+                                    className="font-medium text-black"
                                     to="mailto:akashmoradiya3444@gmail.com"
                                 >
                                     tarekaziz.web@gmail.com
@@ -38,26 +38,26 @@ const Contact = () => (
                             </div>
                             <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
-                                    <MessageCircle />
+                                    <MessageCircle className="text-black" />
                                 </div>
                                 <h3 className="mt-3 font-semibold text-xl">Live chat</h3>
                                 <p className="my-1.5 text-muted-foreground">
                                     Our friendly team is here to help.
                                 </p>
-                                <Link className="font-medium text-primary" to="#">
+                                <Link className="font-medium text-black" to="#">
                                     Start new chat
                                 </Link>
                             </div>
                             <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
-                                    <MapPinIcon />
+                                    <MapPinIcon className="text-black" />
                                 </div>
                                 <h3 className="mt-3 font-semibold text-xl">Office</h3>
                                 <p className="my-1.5 text-muted-foreground">
                                     Come say hello at our office HQ.
                                 </p>
                                 <Link
-                                    className="font-medium text-primary"
+                                    className="font-medium text-black"
                                     to="https://map.google.com"
                                     target="_blank"
                                 >
@@ -66,14 +66,14 @@ const Contact = () => (
                             </div>
                             <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
-                                    <PhoneIcon />
+                                    <PhoneIcon className="text-black" />
                                 </div>
                                 <h3 className="mt-3 font-semibold text-xl">Phone</h3>
                                 <p className="my-1.5 text-muted-foreground">
                                     Mon-Fri from 8am to 5pm.
                                 </p>
                                 <Link
-                                    className="font-medium text-primary"
+                                    className="font-medium text-black"
                                     to="tel:akashmoradiya3444@gmail.com"
                                 >
                                     +880 1564 654784
@@ -82,7 +82,7 @@ const Contact = () => (
                         </div>
 
                         {/* Form */}
-                        <Card className="bg-[#FCF8F4] text-black shadow-none py-0">
+                        <Card className="bg-white text-black shadow-none py-0">
                             <CardContent className="p-6 md:p-8">
                                 <form>
                                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-6">
