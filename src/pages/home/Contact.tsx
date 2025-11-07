@@ -21,7 +21,7 @@ const Contact = () => (
                     </p>
                     <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
-                            <div>
+                            <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
                                     <MailIcon />
                                 </div>
@@ -36,7 +36,7 @@ const Contact = () => (
                                     tarekaziz.web@gmail.com
                                 </Link>
                             </div>
-                            <div>
+                            <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
                                     <MessageCircle />
                                 </div>
@@ -48,7 +48,7 @@ const Contact = () => (
                                     Start new chat
                                 </Link>
                             </div>
-                            <div>
+                            <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
                                     <MapPinIcon />
                                 </div>
@@ -64,7 +64,7 @@ const Contact = () => (
                                     1230 Uttara,Dhaka,  <br /> Bangladesh.
                                 </Link>
                             </div>
-                            <div>
+                            <div className="text-black">
                                 <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
                                     <PhoneIcon />
                                 </div>
@@ -82,7 +82,7 @@ const Contact = () => (
                         </div>
 
                         {/* Form */}
-                        <Card className="bg-[#FCF8F4] shadow-none py-0">
+                        <Card className="bg-[#FCF8F4] text-black shadow-none py-0">
                             <CardContent className="p-6 md:p-8">
                                 <form>
                                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-6">
@@ -131,7 +131,7 @@ const Contact = () => (
                                             </Label>
                                         </div>
                                     </div>
-                                    <Button className="mt-6 w-full bg-[#5A3C2F]" size="lg">
+                                    <Button className="mt-6 w-full text-white bg-[#5A3C2F]" size="lg">
                                         Submit
                                     </Button>
                                 </form>

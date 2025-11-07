@@ -36,7 +36,7 @@ const Hero = ({
         },
     },
     image = {
-        src: "https://i.postimg.cc/4xLSyDWx/profile-pic.png",
+        src: "/profile-pic.png",
         alt: "Hero section demo image showing interface components",
     },
 }: Hero1Props) => {
@@ -49,7 +49,7 @@ const Hero = ({
                         <h1 className="my-5 text-pretty text-4xl font-semibold lg:text-5xl lg:max-w-[13ch]">
                             {heading}
                         </h1>
-                        <p className="text-accent-foreground mb-5 max-w-xl lg:text-xl">
+                        <p className="text-black mb-5 max-w-xl lg:text-xl">
                             {description}
                         </p>
                         <div className=" flex gap-2.5">
@@ -83,7 +83,7 @@ const Hero = ({
                         </div>
                         <div className="mt-4 flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
                             {buttons.primary && (
-                                <Button asChild className="bg-[#5A3C2F] w-full sm:w-auto">
+                                <Button asChild className="text-white bg-[#5A3C2F] w-full sm:w-auto">
                                     <a href={buttons.primary.url}>{buttons.primary.text}</a>
                                 </Button>
                             )}

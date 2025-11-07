@@ -12,14 +12,14 @@ const About = () => {
                     <div className="grid grid-cols-1 items-stretch gap-x-0 gap-y-4 lg:grid-cols-3 lg:gap-4">
                         <Card className="bg-[#FFF0E1]">
                             <img
-                                src="https://i.postimg.cc/4xLSyDWx/profile-pic.png"
+                                src="/profile-pic.png"
                                 alt="placeholder"
                                 className="h-72 w-72 rounded-md object-cover mx-auto lg:h-auto"
                             />
 
                         </Card>
 
-                        <Card className="bg-[#FFF0E1] col-span-2 flex items-center justify-center p-6">
+                        <Card className="bg-[#FFF0E1] text-black col-span-2 flex items-center justify-center p-6">
                             <div className="flex flex-col gap-4">
                                 <p className="text-xl font-medium lg:text-3xl ">
                                     I’m Tarek Aziz
@@ -36,7 +36,7 @@ const About = () => {
                             </div>
                         </Card>
                     </div>
-                    <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+                    <div className="grid text-black grid-cols-2 gap-4 lg:grid-cols-4">
                         <Card className="bg-[#FFF0E1]">
                             <CardContent className="px-6 pt-6 text-5xl text-center">
                                 <p>

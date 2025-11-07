@@ -48,12 +48,12 @@ const Project = () => {
 
                                     <div className="flex justify-around">
 
-                                        <Button asChild size="sm" className="mt-8 shadow-none bg-[#5A3C2F]">
+                                        <Button asChild size="sm" className="mt-8 shadow-none text-white bg-[#5A3C2F]">
                                             <Link to={item.live}>
                                                 View Live <ChevronRight />
                                             </Link>
                                         </Button>
-                                        <Button asChild size="sm" className="mt-8 shadow-none bg-[#5A3C2F]">
+                                        <Button asChild size="sm" className="mt-8 shadow-none text-white bg-[#5A3C2F]">
                                             <Link to={item.code}>
                                                 View Code <ChevronRight />
                                             </Link>

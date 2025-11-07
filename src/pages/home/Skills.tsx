@@ -36,7 +36,7 @@ const Skills = () => (
                         <div className="bg-[#FCF8F4] grid grid-cols-4 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 border border-dashed  p-6 rounded-lg">
                             {icon.map((icon, index) => (
                                 <div key={index} className="flex flex-col items-center justify-center min-w-[100px]">
-                                    <div className="h-20 w-20 rounded-full bg-secondary flex justify-center items-center">
+                                    <div className="h-20 w-20 rounded-full bg-white flex justify-center items-center">
                                         <img className="h-12 w-12" src={icon.imageUrl} alt="image" />
                                     </div>
                                     <h3 className="mt-2 text-lg font-semibold">{icon.name}</h3>
@@ -47,7 +47,7 @@ const Skills = () => (
                         <div className="bg-[#FCF8F4] grid grid-cols-4 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 border border-dashed  p-6 rounded-lg">
                             {icon2.map((icon, index) => (
                                 <div key={index} className="flex flex-col items-center justify-center min-w-[100px]">
-                                    <div className="h-20 w-20 rounded-full bg-secondary flex justify-center items-center">
+                                    <div className="h-20 w-20 rounded-full bg-white flex justify-center items-center">
                                         <img className="h-12 w-12" src={icon.imageUrl} alt="image" />
                                     </div>
                                     <h3 className="mt-2 text-lg font-semibold">{icon.name}</h3>

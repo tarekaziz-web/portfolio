@@ -19,7 +19,7 @@ const Navbar = () => {
           <NavMenu className="hidden md:block" />
 
           <div className="flex items-center gap-3">
-            <Button className="bg-[#5A3C2F]">
+            <Button className="text-white bg-[#5A3C2F]">
               Resume
             </Button>
 
