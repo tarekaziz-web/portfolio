@@ -91,7 +91,7 @@ const Contact = () => (
                                             <Input
                                                 placeholder="First name"
                                                 id="firstName"
-                                                className="mt-2 bg-white h-10 shadow-none"
+                                                className="mt-2 bg-white border h-10 shadow-none"
                                             />
                                         </div>
                                         <div className="col-span-2 sm:col-span-1">
@@ -99,7 +99,7 @@ const Contact = () => (
                                             <Input
                                                 placeholder="Last name"
                                                 id="lastName"
-                                                className="mt-2 bg-white h-10 shadow-none"
+                                                className="mt-2 bg-white border h-10 shadow-none"
                                             />
                                         </div>
                                         <div className="col-span-2">
@@ -108,7 +108,7 @@ const Contact = () => (
                                                 type="email"
                                                 placeholder="Email"
                                                 id="email"
-                                                className="mt-2 bg-white h-10 shadow-none"
+                                                className="mt-2 bg-white border h-10 shadow-none"
                                             />
                                         </div>
                                         <div className="col-span-2">
@@ -116,12 +116,12 @@ const Contact = () => (
                                             <Textarea
                                                 id="message"
                                                 placeholder="Message"
-                                                className="mt-2 bg-white shadow-none"
+                                                className="mt-2 bg-white border shadow-none"
                                                 rows={6}
                                             />
                                         </div>
                                         <div className="col-span-2 flex items-center gap-2">
-                                            <Checkbox id="acceptTerms" className="bg-background" />
+                                            <Checkbox id="acceptTerms" className="bg-white border " />
                                             <Label htmlFor="acceptTerms" className="gap-0">
                                                 You agree to our
                                                 <Link to="#" className="underline ml-1">
