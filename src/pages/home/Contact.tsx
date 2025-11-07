@@ -82,7 +82,7 @@ const Contact = () => (
                         </div>
 
                         {/* Form */}
-                        <Card className="bg-white text-black shadow-none py-0">
+                        <Card className="bg-[#FCF8F4] text-black shadow-none py-0">
                             <CardContent className="p-6 md:p-8">
                                 <form>
                                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-6">
