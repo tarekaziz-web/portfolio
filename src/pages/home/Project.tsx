@@ -12,7 +12,7 @@ const Project = () => {
     return (
         <div className="bg-[#FCF8F4]">
             <div className="container mx-auto ">
-                <div className="max-w-(--breakpoint-xl) py-24  xl:px-0">
+                <div className="max-w-(--breakpoint-xl) text-black py-24  xl:px-0">
                     <div className="text-center">
                         <h2 className=" text-4xl sm:text-5xl font-semibold tracking-tighter">
                             My Projects

@@ -4,7 +4,7 @@ import { Card, CardContent, } from "@/components/ui/card";
 const About = () => {
     return (
         <section className="py-24 bg-[#FCF8F4]">
-            <div className="container mx-auto">
+            <div className="container mx-auto text-black">
                 <h2 className="text-4xl pb-10  md:text-5xl font-semibold text-center tracking-tight">
                     About me
                 </h2>

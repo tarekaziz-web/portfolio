@@ -11,7 +11,7 @@ const Contact = () => (
     <div className=" bg-[#FFF0E1]">
         <div className=" container mx-auto">
             <div className="flex items-center justify-center py-24 px-16">
-                <div className="w-full max-w-(--breakpoint-xl) mx-auto px-6 xl:px-0">
+                <div className="text-black w-full max-w-(--breakpoint-xl) mx-auto px-6 xl:px-0">
                     <h2 className="mt-3 text-4xl font-semibold text-theme3 text-center  md:text-5xl tracking-tight">
                         Get In Touch
                     </h2>

@@ -44,7 +44,7 @@ const Hero = ({
         <section className="py-24 bg-[#FFF0E1]">
             <div className="container mx-auto ">
                 <div className="grid items-center gap-8 lg:grid-cols-2">
-                    <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+                    <div className="flex flex-col items-center text-center text-black lg:items-start lg:text-left">
                         <p className="  text-2xl font-semibold">Hi I'm Tarek Aziz</p>
                         <h1 className="my-5 text-pretty text-4xl font-semibold lg:text-5xl lg:max-w-[13ch]">
                             {heading}

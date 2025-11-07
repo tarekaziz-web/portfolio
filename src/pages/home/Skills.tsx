@@ -5,8 +5,8 @@ const icon = [
     { name: "Javascript", imageUrl: "/javascript.svg" },
     { name: "Typescript", imageUrl: "/typescript.svg" },
     { name: "React", imageUrl: "/react_light.svg" },
-    { name: "Redux", imageUrl: "/public/redux.svg" },
-    { name: "Next Js", imageUrl: "/public/nextjs_icon_dark.svg" },
+    { name: "Redux", imageUrl: "/redux.svg" },
+    { name: "Next Js", imageUrl: "/nextjs_icon_dark.svg" },
 ]
 
 const icon2 = [
@@ -23,7 +23,7 @@ const Skills = () => (
     <div className=" bg-[#FFF0E1]">
         <div className="container mx-auto">
             <div className=" flex items-center justify-center py-24  pb-14">
-                <div className="w-full max-w-(--breakpoint-xl) mx-auto px-6 xl:px-0">
+                <div className="w-full max-w-(--breakpoint-xl) text-black mx-auto px-6 xl:px-0">
                     <div className="text-center max-w-3xl mx-auto">
                         <h2 className="mt-4 text-theme3 text-4xl sm:text-5xl font-semibold tracking-tighter">
                             My Skills
