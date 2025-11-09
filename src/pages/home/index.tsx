@@ -1,7 +1,7 @@
 
-import About from '@/pages/home/About';
-import { Hero } from '@/pages/home/Banner';
+import About2 from '@/pages/home/About2';
 import Contact from '@/pages/home/Contact';
+import { Hero1 } from '@/pages/home/Hero';
 import Project from '@/pages/home/Project';
 import Skills from '@/pages/home/Skills';
 
@@ -14,12 +14,11 @@ import Skills from '@/pages/home/Skills';
 const HomePage = () => {
     return (
         <div className=''>
-            <Hero />
-            <About />
+            <Hero1 />
+            <About2 />
             <Skills />
             <Project />
             <Contact />
-
         </div>
     );
 };

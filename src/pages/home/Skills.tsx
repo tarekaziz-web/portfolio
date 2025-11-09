@@ -1,3 +1,4 @@
+
 const icon = [
     { name: "HTML", imageUrl: "/html5.svg" },
     { name: "CSS", imageUrl: "/css_old.svg" },
@@ -20,7 +21,7 @@ const icon2 = [
 
 
 const Skills = () => (
-    <div className=" bg-[#FFF0E1]">
+    <div className=" bg-gradient-to-l from-[#FFF7EF] via-[#FFE8D6] to-[#FFDCC3] animate-gradient-x">
         <div className="container mx-auto">
             <div className=" flex items-center justify-center py-24  pb-14">
                 <div className="w-full max-w-(--breakpoint-xl) text-black mx-auto px-6 xl:px-0">
@@ -32,36 +33,67 @@ const Skills = () => (
                             As a Frontend Developer Skilled in building responsive and interactive user interfaces using HTML, CSS, JavaScript, TypeScript and React. Passionate about clean code, modern design, and creating seamless user experiences with attention to detail and performance
                         </p>
                     </div>
-                    <div className="mt-14 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-                        <div className="bg-[#FCF8F4] grid grid-cols-4 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 border border-dashed  p-6 rounded-lg">
+                    <div className="mt-14 grid gap-8 lg:grid-cols-2">
+                        {/* First skill group */}
+                        <div className="bg-[#FFF0E1] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 border border-dashed p-6 rounded-lg">
                             {icon.map((icon, index) => (
-                                <div key={index} className="flex flex-col items-center justify-center min-w-[100px]">
-                                    <div className="h-20 w-20 rounded-full bg-white flex justify-center items-center">
-                                        <img className="h-12 w-12" src={icon.imageUrl} alt="image" />
+                                <div
+                                    key={index}
+                                    className="flex flex-col items-center justify-center text-center transform transition duration-500 hover:scale-105"
+                                >
+                                    <div className="h-16 w-16 sm:h-20 sm:w-20 rounded-full bg-white flex justify-center items-center shadow-md ">
+                                        <img
+                                            className="h-10 w-10 sm:h-12 sm:w-12 object-contain "
+                                            src={icon.imageUrl}
+                                            alt={icon.name}
+                                        />
                                     </div>
-                                    <h3 className="mt-2 text-lg font-semibold">{icon.name}</h3>
+                                    <h3 className="mt-2 text-sm sm:text-base font-medium break-words">
+                                        {icon.name}
+                                    </h3>
                                 </div>
                             ))}
-
                         </div>
-                        <div className="bg-[#FCF8F4] grid grid-cols-4 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 border border-dashed  p-6 rounded-lg">
+
+                        {/* Second skill group */}
+                        <div className="bg-[#FFF0E1] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 border border-dashed p-6 rounded-lg">
                             {icon2.map((icon, index) => (
-                                <div key={index} className="flex flex-col items-center justify-center min-w-[100px]">
-                                    <div className="h-20 w-20 rounded-full bg-white flex justify-center items-center">
-                                        <img className="h-12 w-12" src={icon.imageUrl} alt="image" />
+                                <div
+                                    key={index}
+                                    className="flex flex-col items-center justify-center text-center transform transition duration-500 hover:scale-105"
+                                >
+                                    <div className="h-16 w-16 sm:h-20 sm:w-20 rounded-full bg-white flex justify-center items-center shadow-md">
+                                        <img
+                                            className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
+                                            src={icon.imageUrl}
+                                            alt={icon.name}
+                                        />
                                     </div>
-                                    <h3 className="mt-2 text-lg font-semibold">{icon.name}</h3>
+                                    <h3 className="mt-2 text-sm sm:text-base font-medium break-words">
+                                        {icon.name}
+                                    </h3>
                                 </div>
                             ))}
-
                         </div>
-
-
                     </div>
+
                 </div>
             </div>
 
         </div>
+        {/* Tailwind Gradient Animation */}
+        <style>
+            {`
+          @keyframes gradient-x {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+          }
+          .animate-gradient-x {
+            background-size: 200% 200%;
+            animation: gradient-x 15s ease infinite;
+          }
+        `}
+        </style>
     </div>
 );
 
