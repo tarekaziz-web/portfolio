@@ -1,6 +1,6 @@
 import FrontLayout from "@/components/layout/FrontLayout";
 import HomePage from "@/pages/home";
-import About from "@/pages/home/About";
+import About2 from "@/pages/home/About2";
 import Contact from "@/pages/home/Contact";
 import Project from "@/pages/home/Project";
 import Skills from "@/pages/home/Skills";
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/about",
-                Component: About
+                Component: About2
             },
             {
                 path: "/skills",
